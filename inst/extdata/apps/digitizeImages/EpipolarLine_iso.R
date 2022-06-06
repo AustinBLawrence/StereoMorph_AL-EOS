@@ -1,3 +1,5 @@
+## code comes from end of "server.R" file in inst/extdata/apps/digizeImages directory
+
 		# Find epipolar line
 		if(!is.null(json_list$find_epipolar_line)){
 
