@@ -98,3 +98,22 @@
 		out_str
 	})
 })
+
+
+# Is there a way to just have it project a horizontal line at the y coordinate from the landmark on one image onto the next image? 
+
+	# This should be a line with slope = o and intercept is the y coordinate value from the first image
+	
+	# So, what does it need to do?
+#
+# 	1. Check to see if landmark has been digitized on another this or the other view
+# 	a. If yes, extract y coordinate (need to figure out where this is stored...) and project a line on the current image with a slope=0 and intercept=y coord
+# 	b. If no, do nothing.
+# 	2. When moving onto the next landmark, stop displaying this horizontal line and repeat the process for the new landmark.
+#
+#
+#
+	
+	
+	
+	
